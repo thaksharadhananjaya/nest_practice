@@ -4,7 +4,6 @@ import { ConfigModule } from '@nestjs/config';
 
 
 @Module({
-  imports: [ConfigModule.forRoot(),TasksModule],
-
+  imports: [ConfigModule.forRoot(), TasksModule],
 })
-export class AppModule {}
+export class AppModule { }
